@@ -49,9 +49,9 @@ We run commands in the Terminal. The easiest way to do this is in the VSCode Ter
 
 | Step | Screenshot |
 | --- | --- |
-| Open the Terminal panel in VSCode by selecting View > Terminal from the menu. | <img width="2048" alt="Screen Shot 2021-09-06 at 1 14 25 PM" src="https://user-images.githubusercontent.com/1828613/132248395-bf069451-9f08-4638-8137-1014c9831e02.png"> |
-| Type the following command into the Terminal panel, and then hit enter: `npm install`. | <img width="918" alt="Screen Shot 2021-09-06 at 1 23 33 PM" src="https://user-images.githubusercontent.com/1828613/132248753-fa646f4e-3c3b-471e-87e2-121f1814ec1b.png"> |
-| Allow the install script to run. This is installing your development dependencies - the things that make your website run. Wait until you see a screen similar to this. You can ignore the vulnerabilities message - that's my job to maintain! | <img width="918" alt="Screen Shot 2021-09-06 at 1 24 39 PM" src="https://user-images.githubusercontent.com/1828613/132248805-8675a3cc-894d-4eb1-a64f-84f6e545274f.png"> | 
+| Open the Terminal panel in VSCode by selecting View > Terminal from the menu. | <img width="2048" alt="Screen Shot 2021-09-06 at 1 14 25 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/baf1ed80-db7b-4549-8f25-fb07fff875d8"> |
+| Type the following command into the Terminal panel, and then hit enter: `npm install`. Notice the name of the project folder in the terminal panel as you do this. This is called the current working directory. | <img width="918" alt="Screen Shot 2021-09-06 at 1 23 33 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/3719fc6a-d625-4435-b299-49f9bfd1373b"> |
+| Allow the install script to run. This is installing your development dependencies - the things that make your website run. Wait until you see a screen similar to this. You can ignore the vulnerabilities message - that's my job to maintain! | <img width="918" alt="Screen Shot 2021-09-06 at 1 24 39 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/0fe43bda-8c3a-4315-81a1-6648d2364a66"> | 
 
 ### 3. New: Start the assignment (When you're ready to start work)
 
@@ -59,7 +59,7 @@ You'll run the `npm run start` command each time you're ready to start work. For
 
 | Step | Screenshot |
 | --- | --- |
-| Clear the screen using the Command + K keyboard shortcut if you are on a Mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into each time you run a new command. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
+| Clear the Terminal panel screen using the Command + K keyboard shortcut if you are on a Mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into each time you run a new command. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
 | <p>A new browser window will open, and your terminal will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can put it off to the side.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://user-images.githubusercontent.com/1828613/132249364-bc643fff-0cb7-4053-9748-48b202c39c90.png"> | 
 
 ### 4. Open the folder in VSCode, and make changes to the HTML
