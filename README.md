@@ -38,16 +38,19 @@ These instructions will build on your knowledge by having you practice the same 
 ### 1. Clone this repository and find it on your computer
 
 1. Use the "Open with Github Desktop" button to open this repository in GitHub Desktop.
-2. When the window opens in GitHub Desktop, choose Clone.
+1. When the window opens in GitHub Desktop, choose Clone.
+1. Right click on your repository name in the upper left, and then select "Open in Visual Studio Code".
 
 ### 2. New: Install development dependencies (Only once per assignment)
 
 You only need to install development dependencies when you first start the assignment. Once you've run `npm install` on an assignment, you don't need to do it again. When you start a **new** assignment, that's when you'll run this command.
 
+We run commands in the Terminal. The easiest way to do this is in the VSCode Terminal panel, which will run the command in your assignment.
+
 | Step | Screenshot |
 | --- | --- |
-| <p>Drag the folder onto the Terminal icon. A new window will appear with the folder name in it.</p> <small style="font-size: 0.75em;">_Alternately, you can also open Terminal or Command Propmt, type_ `cd`, _add a space, drag and drop the folder into the Terminal window, and then press enter. But this way is easier._ `cd` _stands for "change directory"._</small> | <img width="2048" alt="Screen Shot 2021-09-06 at 1 14 25 PM" src="https://user-images.githubusercontent.com/1828613/132248395-bf069451-9f08-4638-8137-1014c9831e02.png"> | 
-| Type the following command into the window, and then hit enter: `npm install`. | <img width="918" alt="Screen Shot 2021-09-06 at 1 23 33 PM" src="https://user-images.githubusercontent.com/1828613/132248753-fa646f4e-3c3b-471e-87e2-121f1814ec1b.png"> | 
+| Open the Terminal panel in VSCode by selecting View > Terminal from the menu. | <img width="2048" alt="Screen Shot 2021-09-06 at 1 14 25 PM" src="https://user-images.githubusercontent.com/1828613/132248395-bf069451-9f08-4638-8137-1014c9831e02.png"> |
+| Type the following command into the Terminal panel, and then hit enter: `npm install`. | <img width="918" alt="Screen Shot 2021-09-06 at 1 23 33 PM" src="https://user-images.githubusercontent.com/1828613/132248753-fa646f4e-3c3b-471e-87e2-121f1814ec1b.png"> |
 | Allow the install script to run. This is installing your development dependencies - the things that make your website run. Wait until you see a screen similar to this. You can ignore the vulnerabilities message - that's my job to maintain! | <img width="918" alt="Screen Shot 2021-09-06 at 1 24 39 PM" src="https://user-images.githubusercontent.com/1828613/132248805-8675a3cc-894d-4eb1-a64f-84f6e545274f.png"> | 
 
 ### 3. New: Start the assignment (When you're ready to start work)
