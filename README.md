@@ -57,23 +57,24 @@ We run commands in the Terminal. The easiest way to do this is in the VSCode Ter
 
 You'll run the `npm run start` command each time you're ready to start work. For example, if you work, and then shut your computer down, and then come back the next day, you'll only have to run `npm run start`.
 
+Note: if you run into any trouble or errors, such as `EPERM: operation not permitted, uv_cwd vscode`, try clicking the trash can in the Terminal panel, and then reopening it and trying again. Sometimes VSCode's integrated terminal can be buggy with permissions.
+
 | Step | Screenshot |
 | --- | --- |
-| Clear the Terminal panel screen using the Command + K keyboard shortcut if you are on a Mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into each time you run a new command. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://user-images.githubusercontent.com/1828613/132248989-d42351df-8112-4f2e-949c-d8428f723cbc.png"> | 
-| <p>A new browser window will open, and your terminal will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can put it off to the side.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://user-images.githubusercontent.com/1828613/132249364-bc643fff-0cb7-4053-9748-48b202c39c90.png"> | 
+| Clear the Terminal panel screen using the `clear` command if you are on a Mac, or `cls` and hit enter if you are on Windows. This will make it easier to see what you are doing, and is a good habit to get into each time you run a new command. Then type `npm run start`, and hit enter. | <img width="918" alt="Screen Shot 2021-09-06 at 1 27 10 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/30eea495-fafc-45f4-804a-eaf121f14f56"> | 
+| <p>A new browser window will open, and your terminal panel will look like the screenshot to the right. What is happening is that the terminal is watching your files for changes, and at this point, you can safely ignore it and focus on your code.</p> <p>The browser shows a preview of your assignment. There's nothing there yet - that's okay! Next, you'll make a change in VSCode, and the browser will show your changes automatically.</p> | <img width="996" alt="Screen Shot 2021-09-06 at 1 28 45 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/30eea495-fafc-45f4-804a-eaf121f14f56"> | 
 
-### 4. Open the folder in VSCode, and make changes to the HTML
+### 4. Make changes to the HTML
 
-1. Drag and drop the folder from the window in Finder into VSCode.
 2. Read the requirements above carefully. Then, use the information in the requirements to make a change to your code.
 3. Save your changes. Your browser should automatically update and reflect the changes when you save!
-4. Keep working until you are happy with your assignment progress, and ready to double check it meets the assignment requirements. Check your Terminal if changes stop showing up in the browser - there is probably an error in your code.
-5. Once you've reviewed the requirements and sample image to be sure your code looks similar, commit it!
+4. Keep working until you are happy with your assignment progress, and ready to double check it meets the assignment requirements. Check your Terminal panel if changes stop showing up in the browser - there is probably an error in your code.
+5. Once you've reviewed the requirements and sample image to be sure your code looks similar, commit it! You can commit as many times as you like. You could also commit if you are done with code for the evening, but want to come back to it the next day.
 
 ### 5. Commit and push your changes to GitHub
 
-1. Open Tower, and make sure you are in your Repository view, and that you've clicked "Working Copy".
-2. Click “Stage All”.
+1. Open GitHub Desktop, and make sure you are in the CM523 Hello AI assignment by checking the repository name in the upper left.
+2. Review the files in the Changes tab. Make sure that everything you want changed has a checkmark by it. You can click individual file names to see what the changes are and be sure that the changes are intentional.
 3. Write a commit message in the Commit Subject area. Keep it short and descriptive of the changes you made.
 4. Hit “Commit”. This creates a commit, and your changes will “disappear”.
 5. Look for a small arrow with a number next to your **branch**. This is how many changes you will be pushing. Click the small up arrow to push your changes to GitHub.
@@ -82,17 +83,17 @@ You'll run the `npm run start` command each time you're ready to start work. For
 
 | Step | Screenshot |
 | --- | --- |
-| To run the test, you will need to stop the command you have been running (`npm run start`). Use the Control + C shortcut in Terminal to stop the start command. Your Terminal will look like the right (click to see a larger view). If you have the folder name and dollar sign at the bottom, that is how you know it is stopped. | ![Screen Shot 2021-09-06 at 3 33 47 PM](https://user-images.githubusercontent.com/1828613/132256087-48d7b5bc-0d8c-42a4-89a5-c8c25a53e4ff.png) | 
-| Clear the terminal using Command + K, and then run the following command: `npm run test`. | ![Screen Shot 2021-09-06 at 4 26 04 PM](https://user-images.githubusercontent.com/1828613/132258839-9ddbdc27-6518-4751-ad5c-07b9109f4bfc.png) | 
-| If there is a problem with your HTML, the test will stop, and your results will look like this. Follow the tips on the screen, and work on errors from top to bottom, rerunning `npm run test` each time you make a change to see if the change worked. In this example, the error is related to a missing close tag. | ![Screen Shot 2021-09-06 at 4 11 32 PM](https://user-images.githubusercontent.com/1828613/132258314-a9b14fe8-11ef-4c47-88d9-35dd434d6872.png) | 
-| If your HTML is valid, but you are missing an assignment requirement, your test results will look similar to this. Look for phrases or sentences in the error that are familiar. Again, rerun `npm run test` each time you make a change. | <img width="1777" alt="Screen Shot 2021-09-06 at 3 47 36 PM" src="https://user-images.githubusercontent.com/1828613/132257223-da888ea5-a845-4ee5-a539-ab5d266b4ee0.png"> | 
+| To run the test, you will need to stop the command you have been running (`npm run start`). Use the Control + C shortcut in the Terminal panel to stop the start command. Your Terminal will look like the right (click to see a larger view). If you have the folder name and percent sign at the bottom, that is how you know it is stopped. | ![Screen Shot 2021-09-06 at 3 33 47 PM](https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/f98b0f95-39b0-49b1-9db8-572a940652f0) | 
+| Clear the terminal using the `clear` or `cls` command, and then run the following command: `npm run test`. | ![Screen Shot 2021-09-06 at 4 26 04 PM](https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/81148591-0242-40b5-ae50-db35beae11e5) | 
+| If there is a problem with your HTML, the test will stop, and your results will look like this. Follow the tips on the screen, and work on errors from top to bottom, rerunning `npm run test` each time you make a change to see if the change worked. In this example, the error is related to a missing end bracket on the title tag. | ![Screen Shot 2021-09-06 at 4 11 32 PM](https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/8d690941-aa65-4f87-9619-991670139449) | 
+| If your HTML is valid, but you are missing an assignment requirement, your test results will look similar to this. Look for phrases or sentences in the error that are familiar. Again, rerun `npm run test` each time you make a change. | <img width="1777" alt="Screen Shot 2021-09-06 at 3 47 36 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/1eeaa7ff-f9a3-4376-9fbb-b7102d898ae4"> | 
 | A successful test will look like this. Keep going until your test is successful! If you're stuck, don't get discouraged, and reach out to your classmates to compare notes! | ![Screen Shot 2021-09-06 at 4 17 14 PM](https://user-images.githubusercontent.com/1828613/132258456-b0b7f43c-4155-4e9b-bca9-40e81fccda53.png) | 
-| Return to Tower, and then commit and push any new changes you've made to Github. | ![Screen Shot 2021-09-06 at 4 17 14 PM](https://user-images.githubusercontent.com/1828613/131233610-2619d900-50f0-4b0f-899a-741d8fb088a6.png) | 
+| Return to GitHub Desktop, and then commit and push any new changes you've made to Github. | ![Screen Shot 2021-09-06 at 4 17 14 PM](https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/9e736ef5-b4fd-44c9-8a53-c2a7841fdc19) | 
 
-## 7. New: Check Autograding to see how you did!
+## 7. Check Gradescope to see how you did!
 
-1. Find your changes on GitHub.
-2. Once you are on the Pull Requests tab, head to Conversation.
-3. This is where you will see the results of Autograding, and any additional comments I make on your assignment. I'll give you additional feedback on things like performance and coding style, so you know how to improve your code for next time.
-4. With luck, all the tests will pass, since Autograding uses the same `npm run test` command as you did earlier!
-5. Once you pass the tests on GitHub, send me a link to the pull request in Blackboard.
+1. Go to this week's module in Blackboard, and find the assignment submission link.
+2. Submit your assignment using this repository and the main branch.
+3. Gradescope is where you will see the results of Autograding, and any additional comments I make on your assignment. In later assignments, I'll give you additional feedback on things like performance and coding style, so you know how to improve your code for next time.
+4. With luck, all the tests will pass, since Gradescope uses the same `npm run test` command as you did earlier.
+5. Your grade in Gradescope should sync with Blackboard automatically once I release grades. If not, please let me know!
