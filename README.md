@@ -7,16 +7,9 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 - [ ] Change the title of the page to "Hello, world!"
 - [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
 - [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
-- [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and briefly explain what it does, as well as why you think it is interesting. Use the snippet below to get started:
-	```
-		<h2>My favorite new HTML element</h2>
-		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. Hint: if you want to show your HTML element like a tag in the text, like in the example, you may need to escape the HTML element using a tool like https://www.freeformatter.com/html-escape.html -->
-		<h3>How to use this element</h3>
-		<code>
-			<!-- Try adding an example of how to use your HTML element here. You can use MDN's examples as a starting point. -->
-		</code>
-		<p>All information is from <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></cite></p>
-	```
+- [ ] After class, use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from this Figma file. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks!
+
+How far the class gets in general with this assignment, along with the weekly reflection, will help me fine-tune what I teach you this semester.
 
 ## Finished Assignment Example
 
@@ -28,7 +21,7 @@ Today, we're going to learn all about how to preview and test your changes, so y
 
 One of the hardest things to learn when learning a new programming language is the **syntax** of the language. The syntax of a new language is all those little rules that everyone agrees are consistent so that we are all on the same page about the _meaning_ of what we're saying. Computers are especially picky about syntax. In HTML, syntax includes things like how a **tag** is written. Everyone agrees that HTML tags have a syntax like this: `<tagname>your content</tagname>`. Notice the placement of things like `<`, `>`, and `/` in the example. That's syntax!
 
-Because syntax can be hard to get right the first time, I've also added a special command, `npm run test`, that will test your code to make sure the syntax is right, and that your assignment meets the assignment requirements. If you run this and get a message that all tests passed, you'll know you're getting full points on this assignment! The same checks here are the same checks you'll see in GitHub on your branch. This is called autograding.
+Because syntax can be hard to get right the first time, I've also added a special command, `npm run test`, that will test your code to make sure the syntax is right, and that your assignment meets the assignment requirements. If you run this and get a message that all tests passed, you'll know you're getting full points on this assignment! The same checks here are the same checks you'll see in Gradescope. This is called autograding.
 
 ### New terms
 
@@ -44,9 +37,8 @@ These instructions will build on your knowledge by having you practice the same 
 
 ### 1. Clone this repository and find it on your computer
 
-1. Use the "Open with Github Desktop" button to open this repository in Tower.
-2. When the window opens in Tower, choose Clone.
-3. In Tower, click Repositories, then select your repository, then click "Open".
+1. Use the "Open with Github Desktop" button to open this repository in GitHub Desktop.
+2. When the window opens in GitHub Desktop, choose Clone.
 
 ### 2. New: Install development dependencies (Only once per assignment)
 
