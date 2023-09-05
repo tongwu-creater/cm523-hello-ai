@@ -48,10 +48,10 @@
       "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/(?!(cm523-unit-tests)/hello-world)"
+      "/node_modules/(?!(cm523-unit-tests)/hello-ai)"
     ],
     "transformIgnorePatterns": [
-      "/node_modules/(?!(cm523-unit-tests)/hello-world)"
+      "/node_modules/(?!(cm523-unit-tests)/hello-ai)"
     ],
     "haste": {
       "retainAllFiles": true
