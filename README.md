@@ -6,14 +6,20 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 
 - [ ] Change the title of the page to "Hello, world!"
 - [ ] Add a heading in the first line of the body tag with the text "Hello, world!", using the `<h1>` tag.
-- [ ] Add another paragraph telling us who you are using the format "My name is ________" (Add your name in the blank).
-- [ ] After class, use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from this Figma file. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks!
+- [ ] Add a paragraph on the next line telling us who you are using the format "My name is ________" (Add your name in the blank). Use a `<p>` tag.
+- [ ] Use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from the goal example below by **describing what you see and want to do**. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks! One prompt you could use to start is `How can I make a rectangle with a red line around the outside in CSS?`?
 
 How far the class gets in general with this assignment, along with the weekly reflection, will help me fine-tune what I teach you this semester.
 
 ## Finished Assignment Example
 
-<img width="1552" alt="Screen Shot 2020-08-18 at 2 04 36 PM" src="https://user-images.githubusercontent.com/1828613/90549036-e21c4b00-e15b-11ea-8828-b8dcd5d076de.png">
+### Level 1 (Minimum)
+<img width="1103" alt="Screen Shot 2023-09-05 at 3 08 19 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/308802e7-3b64-467d-bccf-b472981dff7a">
+
+### Goal
+Hint: you will need to add the line `<link rel="stylesheet" href="css/style.css">` to accomplish this in in the head tag of your HTML.
+
+<img width="1103" alt="Screen Shot 2023-09-05 at 3 08 05 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/59cd7ab4-5b3b-4c84-b6f5-9b9d2320ad79">
 
 ## First: What new things are we learning in this lesson, and why?
 
