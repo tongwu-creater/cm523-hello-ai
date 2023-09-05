@@ -5,8 +5,8 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 ## Requirements
 
 - [ ] Change the title of the page to "Hello, world!"
-- [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
-- [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
+- [ ] Add a heading in the first line of the body tag with the text "Hello, world!", using the `<h1>` tag.
+- [ ] Add another paragraph telling us who you are using the format "My name is ________" (Add your name in the blank).
 - [ ] After class, use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from this Figma file. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks!
 
 How far the class gets in general with this assignment, along with the weekly reflection, will help me fine-tune what I teach you this semester.
