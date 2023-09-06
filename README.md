@@ -7,7 +7,7 @@ Today, we'll build on our knowledge of HTML tags by making our first changes to 
 - [ ] Change the title of the page to "Hello, world!"
 - [ ] Add a heading in the first line of the body tag with the text "Hello, world!", using the `<h1>` tag.
 - [ ] Add a paragraph on the next line telling us who you are using the format "My name is ________" (Add your name in the blank). Use a `<p>` tag.
-- [ ] Use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from the goal example below by **describing what you see and want to do**. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks! One prompt you could use to start is `How can I make a rectangle with a red line around the outside in CSS?`?
+- [ ] **Optional:** Use the Cody AI plugin in VSCode to see how far you can get with each level of this assignment from the goal example below by **describing what you see and want to do**. How far you get will not affect your grade on this assignment, so don't be afraid to try your best and take risks! One prompt you could use to start is `How can I make a rectangle with a red line around the outside in CSS?`?
 
 How far the class gets in general with this assignment, along with the weekly reflection, will help me fine-tune what I teach you this semester.
 
