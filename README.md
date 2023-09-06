@@ -1,6 +1,6 @@
 # Hello, AI!
 
-Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see feedback in GitHub.
+Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see feedback in GitHub. You'll also have a chance to explore AI.
 
 ## Requirements
 
@@ -13,10 +13,14 @@ How far the class gets in general with this assignment, along with the weekly re
 
 ## Finished Assignment Example
 
-### Level 1 (Minimum)
+### Before AI (this is the part you will be graded on)
 <img width="1103" alt="Screen Shot 2023-09-05 at 3 08 19 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/308802e7-3b64-467d-bccf-b472981dff7a">
 
-### Goal
+### See if you're able to get to this with Cody AI
+This part is optional. The goal is to see if this is a tool we as a class might want to use to help boost our coding skills this semester. While it seems unintuitive to try doing this when I haven't taught you how to do any code yet, learning to describe what you want to accomplish in plain language can help you find the right steps in code more quickly. Take small steps and do your best - you will not be graded on this. One prompt you could use to start is `How can I make a rectangle with a red line around the outside in CSS?`? As long as you have an h1 and a p tag in your code, doing this experiment won't affect your grade, no matter how good or bad it ends up looking.
+
+This is my first time trying this idea out, so if you can't get it, or only get part of it, it's okay! 
+
 Hint: you will need to add the line `<link rel="stylesheet" href="css/style.css">` to accomplish this in in the head tag of your HTML.
 
 <img width="1103" alt="Screen Shot 2023-09-05 at 3 08 05 PM" src="https://github.com/ProfessorKolodziej/cm523-hello-ai/assets/1828613/59cd7ab4-5b3b-4c84-b6f5-9b9d2320ad79">
